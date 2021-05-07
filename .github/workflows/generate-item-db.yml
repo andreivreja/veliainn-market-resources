@@ -1,0 +1,20 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+name: Generate Item DB
+jobs:
+  build:
+    name: Generate Item DB
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - name: Build
+        run: npm install
+      - name: Generate
+        run: npm run action-generate-item-db
+      - uses: andreivreja/publish-to-github-action@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACTION_TITLE: "Action - Generate Item DB"
