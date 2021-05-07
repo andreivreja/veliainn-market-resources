@@ -1,6 +1,9 @@
 # Resources for BDO's Market API
 
 ## Item Database
+> [data/items.json](data/items.json)
+
+> [data/items_all.json](data/items_all.json)
 
 *Updated daily around 6pm UTC*
 
@@ -38,4 +41,7 @@ JSON object, with item ids as keys
 }
 ```
 
-A list of category/subcategory names can be found at https://developers.veliainn.com
+## Categories
+> [data/categories.json](data/categories.json)
+
+List of category/subcategory names.
