@@ -1,13 +1,14 @@
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 18 * * *"
 
 name: Generate Item DB
 jobs:
   build:
     name: Generate Item DB
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@main
       - name: Build
