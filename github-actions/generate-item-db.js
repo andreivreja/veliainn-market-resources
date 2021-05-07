@@ -214,6 +214,9 @@ const initCategories = async () => {
         console.log(`${regions[i]} - finished in ${benchmark(timeStart)}ms`);
     }
 
+    fs.writeFileSync("./data/items_all.json", JSON.stringify(db, null, "\t"));
+
+    // delete non marketable items
     Object.keys(db).forEach((itemKey) => {
         const item = db[itemKey];
 
