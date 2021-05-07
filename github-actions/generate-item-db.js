@@ -16,6 +16,12 @@ const benchmark = (timeStart) => {
     return (diff[0] * 1e9 + diff[1]) * 1e-6;
 };
 
+process.on('unhandledRejection', up => {
+    console.error(up);
+    process.exit(1);
+})
+
+
 const db = {};
 db[45868] = {
     id: 45868,
