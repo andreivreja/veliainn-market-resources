@@ -16,7 +16,6 @@ const benchmark = (timeStart) => {
     return (diff[0] * 1e9 + diff[1]) * 1e-6
 }
 
-
 const db = {};
 db[45868] = {
     id: 45868,
@@ -174,6 +173,13 @@ const initCategories = async () => {
 
         console.log(`${regions[i]} - finished in ${benchmark(timeStart)}ms`)
     }
+
+    db.forEach(itemKey => {
+        const item = db[itemKey];
+
+        if (!item.category_primary)
+            delete db[itemKey];
+    });
 
     fs.writeFileSync('./data/items.json', JSON.stringify(db, null, "\t"));
 }
