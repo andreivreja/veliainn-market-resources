@@ -6,7 +6,7 @@ If you're here for dev related stuff, read below.
 
 Wanna chat? Join the Discord!
 
-[![Discord](https://img.shields.io/discord/617215495032012822?color=5965f1&label=Join%20Discord&logo=discord&logoColor=%23ffffff&style=for-the-badge)](https://discord.gg/JFf6r9e)
+[![Discord](https://img.shields.io/discord/617215495032012822?color=5965f1&label=&logo=discord&logoColor=%23ffffff&style=for-the-badge)](https://discord.gg/JFf6r9e)
 
 # Resources for BDO's Market API
 
