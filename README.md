@@ -1,4 +1,6 @@
-# Velia Inn
+<p align="center"><a href="https://veliainn.com"><img src="https://veliainn.com/images/logo_light.svg" width="260px" height="130px"></a></p>
+
+# 
 
 If you're looking for a [bdo boss timer](https://veliainn.com/boss) and other tools, check out [veliainn.com](https://veliainn.com)
 
