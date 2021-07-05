@@ -46,6 +46,12 @@
             },
             "15": {
                 "name": "Morning Star"
+            },
+            "16": {
+                "name": "Kyve"
+            },
+            "17": {
+                "name": "Serenaca"
             }
         }
     },
@@ -93,6 +99,9 @@
             },
             "14": {
                 "name": "Quoratum"
+            },
+            "15": {
+                "name": "Mareca"
             }
         }
     },
@@ -158,6 +167,9 @@
             },
             "21": {
                 "name": "Sting"
+            },
+            "22": {
+                "name": "Kibelius"
             }
         }
     },
