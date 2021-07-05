@@ -193,9 +193,9 @@ const initCategories = async () => {
         console.log(`${regions[i]} - starting...`);
 
         const timeStart = process.hrtime();
-        await scrapeCategories(regions[i], 1, subCategoryArray(15));
-        await scrapeCategories(regions[i], 5, subCategoryArray(14));
-        await scrapeCategories(regions[i], 10, subCategoryArray(21));
+        await scrapeCategories(regions[i], 1, subCategoryArray(17));
+        await scrapeCategories(regions[i], 5, subCategoryArray(15));
+        await scrapeCategories(regions[i], 10, subCategoryArray(22));
         await scrapeCategories(regions[i], 15, subCategoryArray(6));
         await scrapeCategories(regions[i], 20, subCategoryArray(4));
         await scrapeCategories(regions[i], 25, subCategoryArray(8));
